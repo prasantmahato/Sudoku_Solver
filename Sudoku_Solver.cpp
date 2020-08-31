@@ -32,7 +32,7 @@ class sudoku
     void manager()
     {
         inputGrid();
-        cout<<"\nEntered Sudoku Puzzle: "<<endl;
+        cout<<"\nGiven Sudoku Puzzle: "<<endl;
         displayGrid();
         
         if (SolveSudoku() == true) 
