@@ -1,9 +1,10 @@
 # Sudoku_Solver
 This a program to solve the popular puzzle game named Sudoku, in which you are given a grid with few numbers and you have to fill the rest.
 
-## TOOK HELP FROM GFG
+# Took help from GFG
 
-APPROACH:
+##  APPROACH:
+
 Sudoku can be solved by one by one assigning numbers to empty cells. 
 
 Before assigning a number, we check whether it is safe to assign. 
@@ -18,7 +19,7 @@ If the assignment doesn’t lead to a solution, then we try the next number for 
 And if none of the number (1 to 9) leads to a solution, return false and print no solution exists.
 
 
-ALGORITHM:
+## ALGORITHM:
 
 STEP 1:
     Create a function that checks after assigning the current index the grid becomes unsafe or not.   Keep Hashmap for a row, column and boxes. If any number has a frequency greater than 1 in the hashMap return false else return true; hashMap can be avoided by using loops.
